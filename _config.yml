@@ -1,17 +1,21 @@
-name: Matt Mad
-description: Blogging about stuffs
-meta_description: "Blogging about nerd stuffs, personal thoughts, and software development notes"
+name: after_create :blog!
+description: Programación y otras yerbas ! 
+meta_description: "Cosas nerd, programación, ruby, ROR"
 
 markdown: kramdown
 highlighter: pygments
 logo: false
 paginate: 15
-baseurl: /
-domain_name: 'http://mattmoya.com'
+baseurl: ""
+domain_name: 'http://14tinchov.github.io/'
 disqus: 1
 google_analytics: 'UA-XXXXXXXX-X'
-gems: [jekyll-paginate]
+gems: 
+  - jekyll-paginate
+  - jekyll-multiple-languages-plugin
+languages: ["en", "es"]
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
 
 # Details for the RSS feed generator
-url:            'http://mattmoya.com'
-author:         'Matt Hinczuk'
+url:            'https://14tinchov.github.io/'
+author:         'Martin Villalba'

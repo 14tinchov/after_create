@@ -2,5 +2,6 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'jekyll-paginate'
+gem 'jekyll-multiple-languages-plugin'
 gem 'pygments.rb'
-gem 'octopress', '~> 3.0'
+gem 'octopress'
