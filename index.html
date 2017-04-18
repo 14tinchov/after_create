@@ -11,14 +11,14 @@ cover: false
                     <img src="{{ page.logo }}" alt="Blog Logo" />
                 </a>
             {% endif %}
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+        <!-- <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a> -->
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
-                {% if site.description %} {{ site.description }} {% endif %}
-                {% if page.about %} <a href='{{ site.baseurl }}/{{ page.about }}'> Conoceme </a> {% endif %}
+                {% t information.description %}
+                <a href='{{ site.baseurl }}/about'> {% t information.about %} </a>
             </h2>
             <a class="link-en" href="{{ site.baseurl_root }}/">{% t langs.en %}</a> |
             <a class="link-es" href="{{ site.baseurl_root }}/es">{% t langs.es %}</a>

@@ -1,3 +1,8 @@
 langs:
   en: English
   es: Spanish
+information:
+  about: About me!
+  description: Programming and other things !
+links:
+  home: Home
