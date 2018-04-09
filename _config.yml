@@ -11,7 +11,7 @@ paginate: 15
 baseurl: ""
 domain_name: 'http://14tinchov.github.io/'
 disqus: true
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-117104197-1'
 gems: 
   - jekyll-paginate
   - jekyll-multiple-languages-plugin
