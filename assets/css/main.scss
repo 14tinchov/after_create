@@ -12,3 +12,19 @@
 @import
 	"syntax"
 ;
+
+.post-content p {
+  text-align: justify;
+}
+
+.page-title span {
+  color: #D6311B;
+}
+
+.author-image.about-image {
+  display: block;
+  position: relative;
+  top: 0px;
+  width: 150px;
+  height: 150px;
+}

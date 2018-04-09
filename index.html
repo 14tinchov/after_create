@@ -15,13 +15,13 @@ cover: false
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
+            <h1 class="page-title">{{ site.name }} <span>{{ site.name_2 }}</span></h1>
             <h2 class="page-description">
                 {% t information.description %}
-                <a href='{{ site.baseurl }}/about'> {% t information.about %} </a>
+                <a href='{{ site.baseurl }}/about.html'> {% t information.about %} </a>
             </h2>
-            <a class="link-en" href="{{ site.baseurl_root }}/">{% t langs.en %}</a> |
-            <a class="link-es" href="{{ site.baseurl_root }}/es">{% t langs.es %}</a>
+            <!-- <a class="link-en" href="{{ site.baseurl_root }}/">{% t langs.en %}</a> |
+            <a class="link-es" href="{{ site.baseurl_root }}/es">{% t langs.es %}</a> -->
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>

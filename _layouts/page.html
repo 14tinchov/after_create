@@ -24,6 +24,10 @@ post_class: post-template page-template
         <h1 class="post-title">{{ page.title }}</h1>
 
         <section class="post-content">
+            <div class="author-image about-image">
+                <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/profile.png)">
+                </a>
+            </div>
             {{content}}
         </section>
 

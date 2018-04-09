@@ -1,4 +1,6 @@
-name: after_create :blog!
+full_name: after_create :blog!
+name: after_create
+name_2: :blog!
 description: Programación y otras yerbas ! 
 meta_description: "Cosas nerd, programación, ruby, ROR"
 
@@ -13,7 +15,7 @@ google_analytics: 'UA-XXXXXXXX-X'
 gems: 
   - jekyll-paginate
   - jekyll-multiple-languages-plugin
-languages: ["en", "es"]
+languages: ["es", "en"]
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
 
 # Details for the RSS feed generator
