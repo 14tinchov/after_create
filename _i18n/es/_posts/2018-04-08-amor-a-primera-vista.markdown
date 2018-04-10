@@ -6,7 +6,7 @@ date:   2018-04-08 16:56:50 -0300
 categories: recreo
 ---
 
-_“He encontrado una demostración absolutamente maravillosa, pero el margen de esta hoja es demasiado estrecho para incluirla…” Con estas palabras, Pierre de Fermat planteó un teorema que ha obsesionado durante siglos a los mejores cerebros del mundo._
+> _“He encontrado una demostración absolutamente maravillosa, pero el margen de esta hoja es demasiado estrecho para incluirla…” Con estas palabras, Pierre de Fermat planteó un teorema que ha obsesionado durante siglos a los mejores cerebros del mundo._
 
 Así comienza la reseña del [libro](https://www.amazon.es/enigma-Fermat-Ariel-Simon-Singh/dp/8434418711) de [Simon Singh](https://es.wikipedia.org/wiki/Simon_Singh) y como no hablar de las cosas que uno ama y apasionan en este primer post, en mi caso una de ellas es programar. Siempre me llamo la atención aquellas personas obsesionadas en algo, llegando incluso a dejar de lado todo lo que les rodea, pasando limites que creíamos imposibles de alcanzar.
 
