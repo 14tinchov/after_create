@@ -32,7 +32,7 @@ puts Format.to_markdown(msg)
 puts Format.to_xml(msg)
 ```
 
-Donde vemos que tenemos un clase que ayuda a dar distintos formatos a un mensaje y donde se ve que no se hace uso de un instancia de la clase para llamar a esos metodos. Solo se llama los metodos mediante la clase.
+Aqui podemos ver una clase que ayuda a dar distintos formatos a un mensaje, vemos tambien que no se hace uso de una instancia de la clase para llamar a esos metodos. Solo se llama los metodos mediante la clase.
 
 Pero tambien podria hacerlo de la siguiente manera.
 
@@ -56,4 +56,4 @@ end
 
 Y este es el caso donde vemos nuestro `class << self` ¿Simple no?
 
-_Nota: La segunda versión nos permite definir metodos privados para una clase mientras que en la primera no es posible_
+_Nota: La segunda versión nos permite definir metodos privados para una clase mientras que en la primera no es posible._
